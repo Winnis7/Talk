@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014A821226590872007B69DC /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014A821126590872007B69DC /* Chat.storyboard */; };
+		014A82142659088C007B69DC /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A82132659088C007B69DC /* MainTabBarController.swift */; };
+		014A821826590931007B69DC /* Friend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014A821726590931007B69DC /* Friend.storyboard */; };
+		014A821A26590A66007B69DC /* FriendMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A821926590A66007B69DC /* FriendMainViewController.swift */; };
+		014A821D26590A89007B69DC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A821C26590A89007B69DC /* BaseViewController.swift */; };
+		014A821F26590AFF007B69DC /* ChatMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A821E26590AFF007B69DC /* ChatMainViewController.swift */; };
+		015DB5EF2658B947000003E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DB5EE2658B947000003E8 /* AppDelegate.swift */; };
+		015DB5F62658B947000003E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015DB5F42658B947000003E8 /* Main.storyboard */; };
+		015DB5F82658B948000003E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015DB5F72658B948000003E8 /* Assets.xcassets */; };
+		015DB5FB2658B948000003E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015DB5F92658B948000003E8 /* LaunchScreen.storyboard */; };
+		01C2B8DD265A27E9003888FE /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C2B8DC265A27E9003888FE /* Onboarding.storyboard */; };
+		01C2B8DF265A280A003888FE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B8DE265A280A003888FE /* SignInViewController.swift */; };
+		01C2B8E7265A2E49003888FE /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B8E6265A2E49003888FE /* NSObject+ClassName.swift */; };
+		01C2B8EB265A2F5C003888FE /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B8EA265A2F5C003888FE /* BaseNavigationController.swift */; };
+		01C2B8EF265A334B003888FE /* FriendNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B8EE265A334B003888FE /* FriendNavigationController.swift */; };
+		A2F37B31298F7AEE207F561C /* Pods_NivChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC3F55420A95AEFBD39B61A /* Pods_NivChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014A821126590872007B69DC /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		014A82132659088C007B69DC /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		014A821726590931007B69DC /* Friend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friend.storyboard; sourceTree = "<group>"; };
+		014A821926590A66007B69DC /* FriendMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendMainViewController.swift; sourceTree = "<group>"; };
+		014A821C26590A89007B69DC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		014A821E26590AFF007B69DC /* ChatMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMainViewController.swift; sourceTree = "<group>"; };
+		015DB5EB2658B947000003E8 /* NivChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NivChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		015DB5EE2658B947000003E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		015DB5F52658B947000003E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		015DB5F72658B948000003E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		015DB5FA2658B948000003E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		015DB5FC2658B948000003E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C2B8DC265A27E9003888FE /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		01C2B8DE265A280A003888FE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		01C2B8E6265A2E49003888FE /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		01C2B8EA265A2F5C003888FE /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		01C2B8EE265A334B003888FE /* FriendNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendNavigationController.swift; sourceTree = "<group>"; };
+		4AEAA08BF6D67A3F76C6A4ED /* Pods-NivChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NivChat.release.xcconfig"; path = "Target Support Files/Pods-NivChat/Pods-NivChat.release.xcconfig"; sourceTree = "<group>"; };
+		6FCA4B75D7191B404FA5100A /* Pods-NivChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NivChat.debug.xcconfig"; path = "Target Support Files/Pods-NivChat/Pods-NivChat.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC3F55420A95AEFBD39B61A /* Pods_NivChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NivChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015DB5E82658B947000003E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F37B31298F7AEE207F561C /* Pods_NivChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014A820B2659082D007B69DC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				014A82132659088C007B69DC /* MainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		014A820C26590835007B69DC /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				014A821E26590AFF007B69DC /* ChatMainViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		014A820D2659083B007B69DC /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				014A821926590A66007B69DC /* FriendMainViewController.swift */,
+				01C2B8EE265A334B003888FE /* FriendNavigationController.swift */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		014A820E26590851007B69DC /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				014A821726590931007B69DC /* Friend.storyboard */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		014A82102659085B007B69DC /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				014A821126590872007B69DC /* Chat.storyboard */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		014A821B26590A7F007B69DC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				014A821C26590A89007B69DC /* BaseViewController.swift */,
+				01C2B8EA265A2F5C003888FE /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		015DB5E22658B947000003E8 = {
+			isa = PBXGroup;
+			children = (
+				015DB5ED2658B947000003E8 /* NivChat */,
+				015DB5EC2658B947000003E8 /* Products */,
+				EB6EDB52B7F52891C00515BA /* Pods */,
+				A8C385799D391D416C6F13F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		015DB5EC2658B947000003E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015DB5EB2658B947000003E8 /* NivChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		015DB5ED2658B947000003E8 /* NivChat */ = {
+			isa = PBXGroup;
+			children = (
+				015DB5FC2658B948000003E8 /* Info.plist */,
+				015DB6032658BAF8000003E8 /* Resource */,
+				015DB6022658BAEC000003E8 /* Source */,
+			);
+			path = NivChat;
+			sourceTree = "<group>";
+		};
+		015DB6022658BAEC000003E8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				015DB5EE2658B947000003E8 /* AppDelegate.swift */,
+				01C2B8E2265A2948003888FE /* Network */,
+				01C2B8E1265A2937003888FE /* Rx */,
+				01C2B8E4265A2958003888FE /* Services */,
+				01C2B8E5265A2E0E003888FE /* Types */,
+				01C2B8E0265A28C7003888FE /* Utils */,
+				015DB6062658BB23000003E8 /* ViewControllers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		015DB6032658BAF8000003E8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				015DB5F72658B948000003E8 /* Assets.xcassets */,
+				015DB5F92658B948000003E8 /* LaunchScreen.storyboard */,
+				015DB6042658BB0A000003E8 /* Storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		015DB6042658BB0A000003E8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				01C2B8DB265A27D7003888FE /* Onboarding */,
+				015DB6052658BB13000003E8 /* Main */,
+				014A820E26590851007B69DC /* Friend */,
+				014A82102659085B007B69DC /* Chat */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		015DB6052658BB13000003E8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				015DB5F42658B947000003E8 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		015DB6062658BB23000003E8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				014A821B26590A7F007B69DC /* Base */,
+				01C2B8DA265A25AC003888FE /* Onboarding */,
+				014A820B2659082D007B69DC /* Main */,
+				014A820D2659083B007B69DC /* Friend */,
+				014A820C26590835007B69DC /* Chat */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		01C2B8DA265A25AC003888FE /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				01C2B8DE265A280A003888FE /* SignInViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		01C2B8DB265A27D7003888FE /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				01C2B8DC265A27E9003888FE /* Onboarding.storyboard */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		01C2B8E0265A28C7003888FE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				01C2B8E6265A2E49003888FE /* NSObject+ClassName.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		01C2B8E1265A2937003888FE /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		01C2B8E2265A2948003888FE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		01C2B8E4265A2958003888FE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		01C2B8E5265A2E0E003888FE /* Types */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		A8C385799D391D416C6F13F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC3F55420A95AEFBD39B61A /* Pods_NivChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB6EDB52B7F52891C00515BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FCA4B75D7191B404FA5100A /* Pods-NivChat.debug.xcconfig */,
+				4AEAA08BF6D67A3F76C6A4ED /* Pods-NivChat.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		015DB5EA2658B947000003E8 /* NivChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015DB5FF2658B948000003E8 /* Build configuration list for PBXNativeTarget "NivChat" */;
+			buildPhases = (
+				17739589420610D7D11F6074 /* [CP] Check Pods Manifest.lock */,
+				015DB5E72658B947000003E8 /* Sources */,
+				015DB5E82658B947000003E8 /* Frameworks */,
+				015DB5E92658B947000003E8 /* Resources */,
+				A0F2E581E161CEF0B50A2C94 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NivChat;
+			productName = NivProject;
+			productReference = 015DB5EB2658B947000003E8 /* NivChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		015DB5E32658B947000003E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					015DB5EA2658B947000003E8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 015DB5E62658B947000003E8 /* Build configuration list for PBXProject "NivChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 015DB5E22658B947000003E8;
+			productRefGroup = 015DB5EC2658B947000003E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				015DB5EA2658B947000003E8 /* NivChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		015DB5E92658B947000003E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015DB5FB2658B948000003E8 /* LaunchScreen.storyboard in Resources */,
+				015DB5F82658B948000003E8 /* Assets.xcassets in Resources */,
+				014A821826590931007B69DC /* Friend.storyboard in Resources */,
+				01C2B8DD265A27E9003888FE /* Onboarding.storyboard in Resources */,
+				014A821226590872007B69DC /* Chat.storyboard in Resources */,
+				015DB5F62658B947000003E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17739589420610D7D11F6074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NivChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F2E581E161CEF0B50A2C94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NivChat/Pods-NivChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NivChat/Pods-NivChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NivChat/Pods-NivChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015DB5E72658B947000003E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2B8EF265A334B003888FE /* FriendNavigationController.swift in Sources */,
+				01C2B8EB265A2F5C003888FE /* BaseNavigationController.swift in Sources */,
+				01C2B8DF265A280A003888FE /* SignInViewController.swift in Sources */,
+				014A821D26590A89007B69DC /* BaseViewController.swift in Sources */,
+				014A821A26590A66007B69DC /* FriendMainViewController.swift in Sources */,
+				015DB5EF2658B947000003E8 /* AppDelegate.swift in Sources */,
+				014A821F26590AFF007B69DC /* ChatMainViewController.swift in Sources */,
+				014A82142659088C007B69DC /* MainTabBarController.swift in Sources */,
+				01C2B8E7265A2E49003888FE /* NSObject+ClassName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		015DB5F42658B947000003E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015DB5F52658B947000003E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		015DB5F92658B948000003E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015DB5FA2658B948000003E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		015DB5FD2658B948000003E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		015DB5FE2658B948000003E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		015DB6002658B948000003E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCA4B75D7191B404FA5100A /* Pods-NivChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK4KB6G292;
+				INFOPLIST_FILE = "$(SRCROOT)/NivChat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nivCompany.NivChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		015DB6012658B948000003E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEAA08BF6D67A3F76C6A4ED /* Pods-NivChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AK4KB6G292;
+				INFOPLIST_FILE = "$(SRCROOT)/NivChat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nivCompany.NivChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015DB5E62658B947000003E8 /* Build configuration list for PBXProject "NivChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015DB5FD2658B948000003E8 /* Debug */,
+				015DB5FE2658B948000003E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015DB5FF2658B948000003E8 /* Build configuration list for PBXNativeTarget "NivChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015DB6002658B948000003E8 /* Debug */,
+				015DB6012658B948000003E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 015DB5E32658B947000003E8 /* Project object */;
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="F6R-dw-RHu">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="vaz-VT-R9U">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="F6R-dw-RHu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="chat" selectedImage="chat.fill" id="qSw-1t-VL7"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ezd-4s-tKu">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Mhb-TB-rTZ" kind="relationship" relationship="rootViewController" id="ZfC-LL-7jM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="syp-9V-Mzu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-626" y="139"/>
+        </scene>
+        <!--Chat Main View Controller-->
+        <scene sceneID="3Gl-kf-Pio">
+            <objects>
+                <viewController restorationIdentifier="ChatMainViewController" storyboardIdentifier="ChatMainViewController" id="Mhb-TB-rTZ" customClass="ChatMainViewController" customModule="NivChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UJd-b0-Lnp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l0Y-fu-2Do">
+                                <rect key="frame" x="0.0" y="44" width="414" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L7e-jL-xLt">
+                                        <rect key="frame" x="16" y="9.5" width="42" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                        <state key="normal" title="채팅">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="um7-IY-1fc">
+                                        <rect key="frame" x="325" y="14" width="73" height="32"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypF-Qx-yso">
+                                                <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="ypF-Qx-yso" secondAttribute="height" multiplier="1:1" id="koI-g8-4ue"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal">
+                                                    <imageReference key="image" image="magnifyingglass" catalog="system" symbolScale="large"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhh-Uv-yNX">
+                                                <rect key="frame" x="41" y="0.0" width="32" height="32"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Fhh-Uv-yNX" secondAttribute="height" multiplier="1:1" id="MBU-P1-F4Q"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal">
+                                                    <imageReference key="image" image="gearshape" catalog="system" symbolScale="large"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="D9y-lP-Ncx"/>
+                                            <constraint firstItem="Fhh-Uv-yNX" firstAttribute="width" secondItem="Fhh-Uv-yNX" secondAttribute="height" multiplier="1:1" id="UJf-h3-n73"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="L7e-jL-xLt" firstAttribute="leading" secondItem="l0Y-fu-2Do" secondAttribute="leading" constant="16" id="DkE-Su-yom"/>
+                                    <constraint firstItem="um7-IY-1fc" firstAttribute="centerY" secondItem="l0Y-fu-2Do" secondAttribute="centerY" id="Pq4-du-cP9"/>
+                                    <constraint firstItem="L7e-jL-xLt" firstAttribute="centerY" secondItem="l0Y-fu-2Do" secondAttribute="centerY" id="VZ2-rR-kIF"/>
+                                    <constraint firstAttribute="trailing" secondItem="um7-IY-1fc" secondAttribute="trailing" constant="16" id="lGl-lr-p36"/>
+                                    <constraint firstAttribute="height" constant="60" id="oux-f5-Gz7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WJl-xh-exM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="l0Y-fu-2Do" firstAttribute="top" secondItem="WJl-xh-exM" secondAttribute="top" id="6fg-BI-QjE"/>
+                            <constraint firstItem="l0Y-fu-2Do" firstAttribute="leading" secondItem="WJl-xh-exM" secondAttribute="leading" id="KGT-sC-uEX"/>
+                            <constraint firstItem="WJl-xh-exM" firstAttribute="trailing" secondItem="l0Y-fu-2Do" secondAttribute="trailing" id="dlK-gx-Ed2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YBY-Fi-qc1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jjx-U8-sxi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chat" width="33.5" height="33.5"/>
+        <image name="chat.fill" width="33.5" height="33.5"/>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
